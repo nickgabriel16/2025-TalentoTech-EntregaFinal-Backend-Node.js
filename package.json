@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_back-end_node-js",
+  "version": "1.0.0",
+  "description": "API REST para gestión de productos - Curso Back-End Node.js 2026",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "vitest"
+  },
+  "author": "GLG",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase": "^12.14.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.9"
+  }
+}
